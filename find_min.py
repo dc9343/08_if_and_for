@@ -1,9 +1,9 @@
 numbers = [34,432,1,99]
 
-loser = 1
+champion = numbers[0]
 
 for number in numbers:
-    if number < loser:
-        loser = number
+    if number < champion:
+        champion = number
 
-print(loser)
+print(champion)
